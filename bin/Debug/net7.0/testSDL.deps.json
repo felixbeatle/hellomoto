@@ -1,0 +1,83 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "testSDL/1.0.0": {
+        "dependencies": {
+          "Sayers.SDL2.Core": "1.0.11",
+          "sdl2_ttf.nuget": "2.20.2"
+        },
+        "runtime": {
+          "testSDL.dll": {}
+        }
+      },
+      "Sayers.SDL2.Core/1.0.11": {
+        "runtime": {
+          "lib/net6.0/Sayers.SDL2.Core.dll": {
+            "assemblyVersion": "1.0.11.0",
+            "fileVersion": "1.0.11.0"
+          }
+        }
+      },
+      "sdl2.nuget/2.0.8": {
+        "dependencies": {
+          "sdl2.nuget.redist": "2.0.8"
+        }
+      },
+      "sdl2.nuget.redist/2.0.8": {},
+      "sdl2_ttf.nuget/2.20.2": {
+        "dependencies": {
+          "sdl2.nuget": "2.0.8",
+          "sdl2_ttf.nuget.redist": "2.20.2"
+        }
+      },
+      "sdl2_ttf.nuget.redist/2.20.2": {}
+    }
+  },
+  "libraries": {
+    "testSDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sayers.SDL2.Core/1.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K/guGaUyRdMhL2FLlUYbqJmKF3h2KtOV7l90NJfLOt/M64zLb4fkWlDGjXCZdHSZGPKsyOjps6FdsambXiLJQQ==",
+      "path": "sayers.sdl2.core/1.0.11",
+      "hashPath": "sayers.sdl2.core.1.0.11.nupkg.sha512"
+    },
+    "sdl2.nuget/2.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q9k+3M6lL2ZQ2CxLivAFuMMIdZNxyCk0v3FTI8JooQExx4h7E3ffXk86Yh1QHzdbxuigy1ERsSiYdR2yrxbMzQ==",
+      "path": "sdl2.nuget/2.0.8",
+      "hashPath": "sdl2.nuget.2.0.8.nupkg.sha512"
+    },
+    "sdl2.nuget.redist/2.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4EmJZTnUjAGD4tbLdorctP3lazUqscET9/wcmDC6aXmpYXgR3y1PUNJETw3yTMCW+cB/Ik/8+nxASFrJe+vyXA==",
+      "path": "sdl2.nuget.redist/2.0.8",
+      "hashPath": "sdl2.nuget.redist.2.0.8.nupkg.sha512"
+    },
+    "sdl2_ttf.nuget/2.20.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SLAGn6440IfnTjy5O7kmqnsj7qUnp15QqvSX+IpLqxe7en23bTy8f9wFrAE7YkZJ4wDcKD6GppHQQ4OnkF8dRA==",
+      "path": "sdl2_ttf.nuget/2.20.2",
+      "hashPath": "sdl2_ttf.nuget.2.20.2.nupkg.sha512"
+    },
+    "sdl2_ttf.nuget.redist/2.20.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ktmVosQregIbqpsm7GP9Syy5rDiMWsjeaeJjwlaKZkQ2/M7rR3HFxZCR17OfbLlT2AM/CPEz5bdjQJP3/hZOfA==",
+      "path": "sdl2_ttf.nuget.redist/2.20.2",
+      "hashPath": "sdl2_ttf.nuget.redist.2.20.2.nupkg.sha512"
+    }
+  }
+}

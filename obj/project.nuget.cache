@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "aqMqdk9o0REdyPFhnSGsl9YA/zM6C5Y7+prfOpt4014NUf0J008MHljP5oM5eOLjmBpbPEM6SoiwWyhTWUMjDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felix\\OneDrive\\Documents\\Visual Studio 2022\\projet\\SDL_Solution\\testSDL\\testSDL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felix\\.nuget\\packages\\sayers.sdl2.core\\1.0.11\\sayers.sdl2.core.1.0.11.nupkg.sha512",
+    "C:\\Users\\felix\\.nuget\\packages\\sdl2.nuget\\2.0.8\\sdl2.nuget.2.0.8.nupkg.sha512",
+    "C:\\Users\\felix\\.nuget\\packages\\sdl2.nuget.redist\\2.0.8\\sdl2.nuget.redist.2.0.8.nupkg.sha512",
+    "C:\\Users\\felix\\.nuget\\packages\\sdl2_ttf.nuget\\2.20.2\\sdl2_ttf.nuget.2.20.2.nupkg.sha512",
+    "C:\\Users\\felix\\.nuget\\packages\\sdl2_ttf.nuget.redist\\2.20.2\\sdl2_ttf.nuget.redist.2.20.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "sdl2_ttf.nuget 2.20.2 dépend de sdl2.nuget (>= 2.0.0), mais sdl2.nuget 2.0.0 est introuvable. Une meilleure correspondance approximative de sdl2.nuget 2.0.8 a été résolue.",
+      "libraryId": "sdl2.nuget",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
